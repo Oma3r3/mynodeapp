@@ -10,6 +10,6 @@ app.get('/anotherpage' , function(req, res){
     res.sendFile(__dirname + '/newpage.html'); 
 })
 
-app.listen(3000, function(){
+app.listen(80, function(){
     console.log("App listening on port 3000."); 
 })
